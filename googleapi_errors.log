@@ -1,0 +1,102 @@
+﻿To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Reusing configuration cache.
+> Task :sharedutils:preBuild UP-TO-DATE
+> Task :googleapi:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :sharedutils:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :googleapi:preBuild UP-TO-DATE
+> Task :mediaserviceinterfaces:preBuild UP-TO-DATE
+> Task :googleapi:preDebugBuild UP-TO-DATE
+> Task :sharedutils:preDebugBuild UP-TO-DATE
+> Task :mediaserviceinterfaces:preDebugBuild UP-TO-DATE
+> Task :sharedutils:processDebugNavigationResources UP-TO-DATE
+> Task :mediaserviceinterfaces:generateDebugResValues UP-TO-DATE
+> Task :sharedutils:generateDebugResValues UP-TO-DATE
+> Task :sharedutils:javaPreCompileDebug UP-TO-DATE
+> Task :googleapi:generateDebugResValues UP-TO-DATE
+> Task :googleapi:processDebugNavigationResources UP-TO-DATE
+> Task :mediaserviceinterfaces:javaPreCompileDebug UP-TO-DATE
+> Task :mediaserviceinterfaces:processDebugNavigationResources UP-TO-DATE
+> Task :mediaserviceinterfaces:generateDebugResources UP-TO-DATE
+> Task :googleapi:generateDebugResources UP-TO-DATE
+> Task :sharedutils:generateDebugResources UP-TO-DATE
+> Task :sharedutils:packageDebugResources UP-TO-DATE
+> Task :mediaserviceinterfaces:packageDebugResources UP-TO-DATE
+> Task :googleapi:packageDebugResources UP-TO-DATE
+> Task :googleapi:parseDebugLocalResources UP-TO-DATE
+> Task :sharedutils:parseDebugLocalResources UP-TO-DATE
+> Task :mediaserviceinterfaces:parseDebugLocalResources UP-TO-DATE
+> Task :mediaserviceinterfaces:generateDebugRFile UP-TO-DATE
+> Task :sharedutils:generateDebugRFile UP-TO-DATE
+> Task :googleapi:generateDebugRFile UP-TO-DATE
+> Task :sharedutils:compileDebugKotlin UP-TO-DATE
+> Task :sharedutils:compileDebugJavaWithJavac UP-TO-DATE
+> Task :sharedutils:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :mediaserviceinterfaces:compileDebugJavaWithJavac UP-TO-DATE
+> Task :mediaserviceinterfaces:bundleLibCompileToJarDebug UP-TO-DATE
+
+> Task :googleapi:compileDebugKotlin FAILED
+.\gradlew.bat : e: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/M
+ediaServiceCore/googleapi/src/main/java/com/liskovsoft/googleapi/common/hel
+pers/RetrofitOkHttpHelper.kt:6:23 Unresolved reference 'youtubeapi'.
+In riga:1 car:65
++ ... tudio\jbr"; .\gradlew.bat :googleapi:compileDebugKotlin --no-daemon 
+2 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (e: file:///C:/U...e 'youtubea 
+   pi'.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+e: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/
+googleapi/src/main/java/com/liskovsoft/googleapi/common/helpers/RetrofitOkH
+ttpHelper.kt:7:23 Unresolved reference 'youtubeapi'.
+e: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/
+googleapi/src/main/java/com/liskovsoft/googleapi/common/helpers/RetrofitOkH
+ttpHelper.kt:33:9 Cannot infer type for type parameter 'V'. Specify it 
+explicitly.
+e: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/
+googleapi/src/main/java/com/liskovsoft/googleapi/common/helpers/RetrofitOkH
+ttpHelper.kt:35:31 Cannot infer type for type parameter 'B'. Specify it 
+explicitly.
+e: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/
+googleapi/src/main/java/com/liskovsoft/googleapi/common/helpers/RetrofitOkH
+ttpHelper.kt:35:34 Unresolved reference 'DefaultHeaders'.
+e: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/
+googleapi/src/main/java/com/liskovsoft/googleapi/common/helpers/RetrofitOkH
+ttpHelper.kt:39:9 Cannot infer type for type parameter 'V'. Specify it 
+explicitly.
+e: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/
+googleapi/src/main/java/com/liskovsoft/googleapi/common/helpers/RetrofitOkH
+ttpHelper.kt:40:26 Cannot infer type for type parameter 'B'. Specify it 
+explicitly.
+e: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/
+googleapi/src/main/java/com/liskovsoft/googleapi/common/helpers/RetrofitOkH
+ttpHelper.kt:40:29 Unresolved reference 'DefaultHeaders'.
+e: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/
+googleapi/src/main/java/com/liskovsoft/googleapi/common/helpers/RetrofitOkH
+ttpHelper.kt:41:23 Cannot infer type for type parameter 'B'. Specify it 
+explicitly.
+e: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/
+googleapi/src/main/java/com/liskovsoft/googleapi/common/helpers/RetrofitOkH
+ttpHelper.kt:41:26 Unresolved reference 'DefaultHeaders'.
+e: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/
+googleapi/src/main/java/com/liskovsoft/googleapi/common/helpers/RetrofitOkH
+ttpHelper.kt:101:40 Unresolved reference 'AppConstants'.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':googleapi:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.Gr
+adleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 9s
+26 actionable tasks: 1 executed, 25 up-to-date
+Configuration cache entry reused.

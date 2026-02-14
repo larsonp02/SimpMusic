@@ -1,0 +1,676 @@
+﻿To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Reusing configuration cache.
+> Task :composeApp:androidPreBuild UP-TO-DATE
+> Task :crashlytics-empty:preBuild UP-TO-DATE
+> Task :kotlinYtmusicScraper:androidPreBuild UP-TO-DATE
+> Task :androidApp:preBuild UP-TO-DATE
+> Task :ktorExt:androidPreBuild UP-TO-DATE
+> Task :common:androidPreBuild UP-TO-DATE
+> Task :kizzy:androidPreBuild UP-TO-DATE
+> Task :androidApp:preDebugBuild UP-TO-DATE
+> Task :androidApp:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :lyricsService:androidPreBuild UP-TO-DATE
+> Task :media3-ui:preBuild UP-TO-DATE
+> Task :composeApp:preAndroidMainBuild UP-TO-DATE
+> Task :kizzy:preAndroidMainBuild UP-TO-DATE
+> Task :data:androidPreBuild UP-TO-DATE
+> Task :ktorExt:preAndroidMainBuild UP-TO-DATE
+> Task :media3:preBuild UP-TO-DATE
+> Task :domain:androidPreBuild UP-TO-DATE
+> Task :aiService:androidPreBuild UP-TO-DATE
+> Task :media3:preDebugBuild UP-TO-DATE
+> Task :kotlinYtmusicScraper:preAndroidMainBuild UP-TO-DATE
+> Task :lyricsService:preAndroidMainBuild UP-TO-DATE
+> Task :data:preAndroidMainBuild UP-TO-DATE
+> Task :common:preAndroidMainBuild UP-TO-DATE
+> Task :crashlytics-empty:preDebugBuild UP-TO-DATE
+> Task :domain:preAndroidMainBuild UP-TO-DATE
+> Task :aiService:preAndroidMainBuild UP-TO-DATE
+> Task :media3-ui:preDebugBuild UP-TO-DATE
+> Task :androidApp:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :composeApp:convertXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :mediaserviceinterfaces:preBuild UP-TO-DATE
+> Task :mediaserviceinterfaces:preDebugBuild UP-TO-DATE
+> Task :composeApp:copyNonXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForAndroidMain NO-SOURCE
+> Task :sharedutils:preBuild UP-TO-DATE
+> Task :sharedutils:preDebugBuild UP-TO-DATE
+> Task :media3:generateDebugResValues UP-TO-DATE
+> Task :media3-ui:generateDebugResValues UP-TO-DATE
+> Task :crashlytics-empty:generateDebugResValues UP-TO-DATE
+> Task :sharedutils:generateDebugResValues UP-TO-DATE
+> Task :mediaserviceinterfaces:generateDebugResValues UP-TO-DATE
+> Task :androidApp:generateDebugResValues UP-TO-DATE
+> Task :common:generateAndroidMainEmptyResourceFiles UP-TO-DATE
+> Task :lyricsService:generateAndroidMainEmptyResourceFiles UP-TO-DATE
+> Task :aiService:generateAndroidMainEmptyResourceFiles UP-TO-DATE
+> Task :ktorExt:generateAndroidMainEmptyResourceFiles UP-TO-DATE
+> Task :data:generateAndroidMainEmptyResourceFiles UP-TO-DATE
+> Task :kizzy:generateAndroidMainEmptyResourceFiles UP-TO-DATE
+> Task :kotlinYtmusicScraper:generateAndroidMainEmptyResourceFiles UP-TO-DATE
+> Task :domain:generateAndroidMainEmptyResourceFiles UP-TO-DATE
+> Task :youtubeapi:preBuild UP-TO-DATE
+> Task :spotify:androidPreBuild UP-TO-DATE
+> Task :spotify:preAndroidMainBuild UP-TO-DATE
+> Task :youtubeapi:preDebugBuild UP-TO-DATE
+> Task :composeApp:convertXmlValueResourcesForCommonMain UP-TO-DATE
+> Task :youtubeapi:generateDebugResValues UP-TO-DATE
+> Task :media3:processDebugNavigationResources UP-TO-DATE
+> Task :spotify:generateAndroidMainEmptyResourceFiles UP-TO-DATE
+> Task :composeApp:generateAndroidMainEmptyResourceFiles UP-TO-DATE
+> Task :sharedutils:generateDebugResources UP-TO-DATE
+> Task :media3:generateDebugResources UP-TO-DATE
+> Task :crashlytics-empty:processDebugNavigationResources UP-TO-DATE
+> Task :media3-ui:processDebugNavigationResources UP-TO-DATE
+> Task :mediaserviceinterfaces:generateDebugResources UP-TO-DATE
+> Task :mediaserviceinterfaces:processDebugNavigationResources UP-TO-DATE
+> Task :crashlytics-empty:generateDebugResources UP-TO-DATE
+> Task :youtubeapi:processDebugNavigationResources UP-TO-DATE
+> Task :media3-ui:generateDebugResources UP-TO-DATE
+> Task :androidApp:generateDebugBuildConfig UP-TO-DATE
+> Task :sharedutils:processDebugNavigationResources UP-TO-DATE
+> Task :youtubeapi:generateDebugResources UP-TO-DATE
+> Task :aiService:writeAndroidMainAarMetadata UP-TO-DATE
+> Task :crashlytics-empty:writeDebugAarMetadata UP-TO-DATE
+> Task :common:writeAndroidMainAarMetadata UP-TO-DATE
+> Task :domain:writeAndroidMainAarMetadata UP-TO-DATE
+> Task :composeApp:writeAndroidMainAarMetadata UP-TO-DATE
+> Task :kizzy:writeAndroidMainAarMetadata UP-TO-DATE
+> Task :data:writeAndroidMainAarMetadata UP-TO-DATE
+> Task :kotlinYtmusicScraper:writeAndroidMainAarMetadata UP-TO-DATE
+> Task :lyricsService:writeAndroidMainAarMetadata UP-TO-DATE
+> Task :ktorExt:writeAndroidMainAarMetadata UP-TO-DATE
+> Task :media3-ui:writeDebugAarMetadata UP-TO-DATE
+> Task :mediaserviceinterfaces:writeDebugAarMetadata UP-TO-DATE
+> Task :media3:writeDebugAarMetadata UP-TO-DATE
+> Task :spotify:writeAndroidMainAarMetadata UP-TO-DATE
+> Task :sharedutils:writeDebugAarMetadata UP-TO-DATE
+> Task :youtubeapi:writeDebugAarMetadata UP-TO-DATE
+> Task :androidApp:extractDeepLinksDebug UP-TO-DATE
+> Task :androidApp:generateDebugResources UP-TO-DATE
+> Task :mediaserviceinterfaces:packageDebugResources UP-TO-DATE
+> Task :media3:packageDebugResources UP-TO-DATE
+> Task :crashlytics-empty:extractDeepLinksDebug UP-TO-DATE
+> Task :sharedutils:packageDebugResources UP-TO-DATE
+> Task :youtubeapi:packageDebugResources UP-TO-DATE
+> Task :composeApp:processAndroidMainManifest UP-TO-DATE
+> Task :crashlytics-empty:processDebugManifest UP-TO-DATE
+> Task :androidApp:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :crashlytics-empty:packageDebugResources UP-TO-DATE
+> Task :domain:processAndroidMainManifest UP-TO-DATE
+> Task :media3-ui:packageDebugResources UP-TO-DATE
+> Task :mediaserviceinterfaces:parseDebugLocalResources UP-TO-DATE
+> Task :youtubeapi:parseDebugLocalResources UP-TO-DATE
+> Task :media3:parseDebugLocalResources UP-TO-DATE
+> Task :kizzy:processAndroidMainManifest UP-TO-DATE
+> Task :aiService:processAndroidMainManifest UP-TO-DATE
+> Task :data:processAndroidMainManifest UP-TO-DATE
+> Task :androidApp:packageDebugResources UP-TO-DATE
+> Task :sharedutils:parseDebugLocalResources UP-TO-DATE
+> Task :kotlinYtmusicScraper:processAndroidMainManifest UP-TO-DATE
+> Task :crashlytics-empty:parseDebugLocalResources UP-TO-DATE
+> Task :media3-ui:parseDebugLocalResources UP-TO-DATE
+> Task :common:processAndroidMainManifest UP-TO-DATE
+> Task :composeApp:copyNonXmlValueResourcesForCommonMain UP-TO-DATE
+> Task :mediaserviceinterfaces:generateDebugRFile UP-TO-DATE
+> Task :youtubeapi:generateDebugRFile UP-TO-DATE
+> Task :media3-ui:extractDeepLinksDebug UP-TO-DATE
+> Task :mediaserviceinterfaces:extractDeepLinksDebug UP-TO-DATE
+> Task :media3:extractDeepLinksDebug UP-TO-DATE
+> Task :crashlytics-empty:generateDebugRFile UP-TO-DATE
+> Task :media3:generateDebugRFile UP-TO-DATE
+> Task :sharedutils:generateDebugRFile UP-TO-DATE
+> Task :media3-ui:generateDebugRFile UP-TO-DATE
+> Task :lyricsService:processAndroidMainManifest UP-TO-DATE
+> Task :media3:processDebugManifest UP-TO-DATE
+> Task :ktorExt:processAndroidMainManifest UP-TO-DATE
+> Task :media3-ui:processDebugManifest UP-TO-DATE
+> Task :mediaserviceinterfaces:processDebugManifest UP-TO-DATE
+> Task :sharedutils:processDebugManifest UP-TO-DATE
+> Task :composeApp:prepareComposeResourcesTaskForCommonMain UP-TO-DATE
+> Task :crashlytics-empty:compileDebugLibraryResources UP-TO-DATE
+> Task :mediaserviceinterfaces:compileDebugLibraryResources UP-TO-DATE
+> Task :sharedutils:extractDeepLinksDebug UP-TO-DATE
+> Task :media3:compileDebugLibraryResources UP-TO-DATE
+> Task :youtubeapi:compileDebugLibraryResources UP-TO-DATE
+> Task :spotify:processAndroidMainManifest UP-TO-DATE
+> Task :media3-ui:compileDebugLibraryResources UP-TO-DATE
+> Task :composeApp:generateResourceAccessorsForAndroidMain NO-SOURCE
+> Task :sharedutils:compileDebugLibraryResources UP-TO-DATE
+> Task :aiService:kmpPartiallyResolvedDependenciesChecker
+> Task :aiService:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :data:kmpPartiallyResolvedDependenciesChecker
+> Task :composeApp:generateExpectResourceCollectorsForCommonMain UP-TO-DATE
+> Task :composeApp:kmpPartiallyResolvedDependenciesChecker
+> Task :common:kmpPartiallyResolvedDependenciesChecker
+> Task :youtubeapi:extractDeepLinksDebug UP-TO-DATE
+> Task :youtubeapi:processDebugManifest UP-TO-DATE
+> Task :domain:kmpPartiallyResolvedDependenciesChecker
+> Task :composeApp:generateBuildKonfig UP-TO-DATE
+> Task :domain:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :composeApp:generateComposeResClass UP-TO-DATE
+> Task :ktorExt:kmpPartiallyResolvedDependenciesChecker
+> Task :ktorExt:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :composeApp:generateResourceAccessorsForCommonMain UP-TO-DATE
+> Task :composeApp:copyAndroidMainComposeResourcesToAndroidAssets UP-TO-DATE
+> Task :kizzy:kmpPartiallyResolvedDependenciesChecker
+> Task :kizzy:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :sharedutils:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :sharedutils:preReleaseBuild UP-TO-DATE
+> Task :composeApp:generateActualResourceCollectorsForAndroidMain UP-TO-DATE
+> Task :composeApp:packageAndroidMainResources UP-TO-DATE
+> Task :sharedutils:generateReleaseResValues UP-TO-DATE
+> Task :kotlinYtmusicScraper:kmpPartiallyResolvedDependenciesChecker
+> Task :composeApp:compileAndroidMainLibraryResources UP-TO-DATE
+> Task :data:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :youtubeapi:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :youtubeapi:preReleaseBuild UP-TO-DATE
+> Task :mediaserviceinterfaces:preReleaseBuild UP-TO-DATE
+> Task :common:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :composeApp:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :youtubeapi:generateReleaseResValues UP-TO-DATE
+> Task :youtubeapi:generateReleaseResources UP-TO-DATE
+> Task :sharedutils:javaPreCompileRelease UP-TO-DATE
+> Task :kotlinYtmusicScraper:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :composeApp:parseAndroidMainLocalResources UP-TO-DATE
+> Task :sharedutils:generateReleaseResources UP-TO-DATE
+> Task :sharedutils:processReleaseNavigationResources UP-TO-DATE
+> Task :youtubeapi:processReleaseNavigationResources UP-TO-DATE
+> Task :youtubeapi:javaPreCompileRelease UP-TO-DATE
+> Task :media3:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :media3:preReleaseBuild UP-TO-DATE
+> Task :lyricsService:kmpPartiallyResolvedDependenciesChecker
+> Task :lyricsService:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :youtubeapi:packageReleaseResources UP-TO-DATE
+> Task :sharedutils:packageReleaseResources UP-TO-DATE
+> Task :media3:generateReleaseResValues UP-TO-DATE
+> Task :media3:processReleaseNavigationResources UP-TO-DATE
+> Task :mediaserviceinterfaces:generateReleaseResValues UP-TO-DATE
+> Task :mediaserviceinterfaces:processReleaseNavigationResources UP-TO-DATE
+> Task :media3:javaPreCompileRelease UP-TO-DATE
+> Task :composeApp:generateAndroidMainRFile UP-TO-DATE
+> Task :spotify:kmpPartiallyResolvedDependenciesChecker
+> Task :mediaserviceinterfaces:generateReleaseResources UP-TO-DATE
+> Task :mediaserviceinterfaces:javaPreCompileRelease UP-TO-DATE
+> Task :media3:generateReleaseResources UP-TO-DATE
+> Task :spotify:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :media3-ui:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :youtubeapi:parseReleaseLocalResources UP-TO-DATE
+> Task :media3-ui:preReleaseBuild UP-TO-DATE
+> Task :sharedutils:parseReleaseLocalResources UP-TO-DATE
+> Task :mediaserviceinterfaces:packageReleaseResources UP-TO-DATE
+> Task :youtubeapi:generateReleaseRFile UP-TO-DATE
+> Task :media3-ui:generateReleaseResValues UP-TO-DATE
+> Task :media3-ui:processReleaseNavigationResources UP-TO-DATE
+> Task :crashlytics-empty:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :mediaserviceinterfaces:parseReleaseLocalResources UP-TO-DATE
+> Task :media3-ui:javaPreCompileRelease UP-TO-DATE
+> Task :composeApp:javaPreCompileAndroidMain UP-TO-DATE
+> Task :sharedutils:generateReleaseRFile UP-TO-DATE
+> Task :media3:javaPreCompileDebug UP-TO-DATE
+> Task :mediaserviceinterfaces:generateReleaseRFile UP-TO-DATE
+> Task :androidApp:javaPreCompileDebug UP-TO-DATE
+> Task :media3-ui:generateReleaseResources UP-TO-DATE
+> Task :crashlytics-empty:javaPreCompileDebug UP-TO-DATE
+> Task :composeApp:generateAndroidMainAssets UP-TO-DATE
+> Task :androidApp:mergeDebugShaders UP-TO-DATE
+> Task :androidApp:compileDebugShaders NO-SOURCE
+> Task :androidApp:generateDebugAssets UP-TO-DATE
+> Task :crashlytics-empty:mergeDebugShaders UP-TO-DATE
+> Task :crashlytics-empty:compileDebugShaders NO-SOURCE
+> Task :media3-ui:javaPreCompileDebug UP-TO-DATE
+> Task :crashlytics-empty:generateDebugAssets UP-TO-DATE
+> Task :media3:mergeDebugShaders UP-TO-DATE
+> Task :media3:compileDebugShaders NO-SOURCE
+> Task :media3:generateDebugAssets UP-TO-DATE
+> Task :media3:mergeDebugAssets UP-TO-DATE
+> Task :sharedutils:mergeDebugShaders UP-TO-DATE
+> Task :sharedutils:compileDebugShaders NO-SOURCE
+> Task :media3-ui:packageReleaseResources UP-TO-DATE
+> Task :composeApp:mergeAndroidMainAssets UP-TO-DATE
+> Task :sharedutils:generateDebugAssets UP-TO-DATE
+> Task :sharedutils:mergeDebugAssets UP-TO-DATE
+> Task :media3-ui:parseReleaseLocalResources UP-TO-DATE
+> Task :mediaserviceinterfaces:mergeDebugShaders UP-TO-DATE
+> Task :mediaserviceinterfaces:compileDebugShaders NO-SOURCE
+> Task :mediaserviceinterfaces:generateDebugAssets UP-TO-DATE
+> Task :youtubeapi:mergeDebugShaders UP-TO-DATE
+> Task :mediaserviceinterfaces:mergeDebugAssets UP-TO-DATE
+> Task :youtubeapi:compileDebugShaders NO-SOURCE
+> Task :youtubeapi:generateDebugAssets UP-TO-DATE
+> Task :crashlytics-empty:mergeDebugAssets UP-TO-DATE
+> Task :youtubeapi:mergeDebugAssets UP-TO-DATE
+> Task :mediaserviceinterfaces:javaPreCompileDebug UP-TO-DATE
+> Task :sharedutils:javaPreCompileDebug UP-TO-DATE
+> Task :youtubeapi:javaPreCompileDebug UP-TO-DATE
+> Task :mediaserviceinterfaces:processDebugJavaRes NO-SOURCE
+> Task :androidApp:desugarDebugFileDependencies UP-TO-DATE
+> Task :aiService:mergeAndroidMainJniLibFolders UP-TO-DATE
+> Task :aiService:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :aiService:copyAndroidMainJniLibsProjectOnly UP-TO-DATE
+> Task :androidApp:mergeDebugJniLibFolders UP-TO-DATE
+> Task :common:mergeAndroidMainJniLibFolders UP-TO-DATE
+> Task :common:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :common:copyAndroidMainJniLibsProjectOnly UP-TO-DATE
+> Task :composeApp:mergeAndroidMainJniLibFolders UP-TO-DATE
+> Task :composeApp:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :composeApp:copyAndroidMainJniLibsProjectOnly UP-TO-DATE
+> Task :crashlytics-empty:mergeDebugJniLibFolders UP-TO-DATE
+> Task :crashlytics-empty:mergeDebugNativeLibs NO-SOURCE
+> Task :crashlytics-empty:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :data:mergeAndroidMainJniLibFolders UP-TO-DATE
+> Task :data:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :data:copyAndroidMainJniLibsProjectOnly UP-TO-DATE
+> Task :domain:mergeAndroidMainJniLibFolders UP-TO-DATE
+> Task :domain:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :domain:copyAndroidMainJniLibsProjectOnly UP-TO-DATE
+> Task :media3:packageReleaseResources UP-TO-DATE
+> Task :media3:parseReleaseLocalResources UP-TO-DATE
+> Task :media3:generateReleaseRFile UP-TO-DATE
+> Task :kizzy:mergeAndroidMainJniLibFolders UP-TO-DATE
+> Task :kotlinYtmusicScraper:mergeAndroidMainJniLibFolders UP-TO-DATE
+> Task :kotlinYtmusicScraper:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :kotlinYtmusicScraper:copyAndroidMainJniLibsProjectOnly UP-TO-DATE
+> Task :kizzy:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :ktorExt:mergeAndroidMainJniLibFolders UP-TO-DATE
+> Task :ktorExt:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :kizzy:copyAndroidMainJniLibsProjectOnly UP-TO-DATE
+> Task :lyricsService:mergeAndroidMainJniLibFolders UP-TO-DATE
+> Task :lyricsService:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :lyricsService:copyAndroidMainJniLibsProjectOnly UP-TO-DATE
+> Task :media3:mergeDebugJniLibFolders UP-TO-DATE
+> Task :media3:mergeDebugNativeLibs NO-SOURCE
+> Task :media3:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :media3-ui:mergeDebugJniLibFolders UP-TO-DATE
+> Task :media3-ui:mergeDebugNativeLibs NO-SOURCE
+> Task :media3-ui:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :mediaserviceinterfaces:mergeDebugJniLibFolders UP-TO-DATE
+> Task :mediaserviceinterfaces:mergeDebugNativeLibs NO-SOURCE
+> Task :mediaserviceinterfaces:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :sharedutils:mergeDebugJniLibFolders UP-TO-DATE
+> Task :sharedutils:mergeDebugNativeLibs NO-SOURCE
+> Task :sharedutils:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :media3-ui:mergeDebugShaders UP-TO-DATE
+> Task :spotify:mergeAndroidMainJniLibFolders UP-TO-DATE
+> Task :media3-ui:compileDebugShaders NO-SOURCE
+> Task :media3-ui:generateDebugAssets UP-TO-DATE
+> Task :spotify:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :androidApp:l8DexDesugarLibDebug UP-TO-DATE
+> Task :media3-ui:generateReleaseRFile UP-TO-DATE
+> Task :spotify:copyAndroidMainJniLibsProjectOnly UP-TO-DATE
+> Task :media3-ui:mergeDebugAssets UP-TO-DATE
+> Task :youtubeapi:mergeDebugJniLibFolders UP-TO-DATE
+> Task :ktorExt:copyAndroidMainJniLibsProjectOnly UP-TO-DATE
+> Task :androidApp:validateSigningDebug UP-TO-DATE
+> Task :youtubeapi:mergeDebugNativeLibs NO-SOURCE
+> Task :androidApp:writeDebugAppMetadata UP-TO-DATE
+> Task :youtubeapi:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :crashlytics:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :androidApp:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :crashlytics:prepareLintJarForPublish UP-TO-DATE
+> Task :crashlytics-empty:stripDebugDebugSymbols NO-SOURCE
+> Task :crashlytics-empty:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :crashlytics:preBuild UP-TO-DATE
+> Task :crashlytics-empty:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :crashlytics:preDebugBuild UP-TO-DATE
+> Task :crashlytics:mergeDebugJniLibFolders UP-TO-DATE
+> Task :crashlytics:mergeDebugNativeLibs NO-SOURCE
+> Task :crashlytics:stripDebugDebugSymbols NO-SOURCE
+> Task :crashlytics:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :crashlytics:generateDebugResValues UP-TO-DATE
+> Task :crashlytics:generateDebugResources UP-TO-DATE
+> Task :crashlytics:packageDebugResources UP-TO-DATE
+> Task :crashlytics:processDebugNavigationResources UP-TO-DATE
+> Task :crashlytics:parseDebugLocalResources UP-TO-DATE
+> Task :crashlytics:generateDebugRFile UP-TO-DATE
+> Task :crashlytics:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :crashlytics:mergeDebugShaders UP-TO-DATE
+> Task :crashlytics:compileDebugShaders NO-SOURCE
+> Task :crashlytics:generateDebugAssets UP-TO-DATE
+> Task :crashlytics:mergeDebugAssets UP-TO-DATE
+> Task :crashlytics:javaPreCompileDebug UP-TO-DATE
+> Task :crashlytics:prepareDebugArtProfile UP-TO-DATE
+> Task :crashlytics:processDebugManifest UP-TO-DATE
+> Task :crashlytics:writeDebugAarMetadata UP-TO-DATE
+> Task :crashlytics-empty:prepareDebugArtProfile UP-TO-DATE
+> Task :crashlytics-empty:prepareLintJarForPublish UP-TO-DATE
+> Task :googleapi:preBuild UP-TO-DATE
+> Task :googleapi:preDebugBuild UP-TO-DATE
+> Task :googleapi:checkDebugAarMetadata UP-TO-DATE
+> Task :googleapi:mergeDebugJniLibFolders UP-TO-DATE
+> Task :googleapi:mergeDebugNativeLibs NO-SOURCE
+> Task :googleapi:stripDebugDebugSymbols NO-SOURCE
+> Task :googleapi:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :googleapi:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :googleapi:generateDebugResValues UP-TO-DATE
+> Task :googleapi:generateDebugResources UP-TO-DATE
+> Task :googleapi:packageDebugResources UP-TO-DATE
+> Task :googleapi:processDebugNavigationResources UP-TO-DATE
+> Task :googleapi:parseDebugLocalResources UP-TO-DATE
+> Task :googleapi:generateDebugRFile UP-TO-DATE
+> Task :googleapi:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :googleapi:mergeDebugShaders UP-TO-DATE
+> Task :googleapi:compileDebugShaders NO-SOURCE
+> Task :googleapi:generateDebugAssets UP-TO-DATE
+> Task :googleapi:mergeDebugAssets UP-TO-DATE
+> Task :googleapi:javaPreCompileDebug UP-TO-DATE
+> Task :googleapi:prepareDebugArtProfile UP-TO-DATE
+> Task :googleapi:prepareLintJarForPublish UP-TO-DATE
+> Task :googleapi:processDebugManifest UP-TO-DATE
+> Task :googleapi:writeDebugAarMetadata UP-TO-DATE
+> Task :androidApp:mergeDebugAssets UP-TO-DATE
+> Task :crashlytics:checkDebugAarMetadata UP-TO-DATE
+> Task :media3:stripDebugDebugSymbols NO-SOURCE
+> Task :media3:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :media3:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :media3:prepareDebugArtProfile UP-TO-DATE
+> Task :androidApp:compressDebugAssets UP-TO-DATE
+> Task :media3:prepareLintJarForPublish UP-TO-DATE
+> Task :media3-ui:stripDebugDebugSymbols NO-SOURCE
+> Task :media3-ui:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :media3-ui:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :androidApp:mergeDebugResources UP-TO-DATE
+> Task :media3-ui:prepareLintJarForPublish UP-TO-DATE
+> Task :androidApp:mapDebugSourceSetPaths UP-TO-DATE
+> Task :media3-ui:prepareDebugArtProfile UP-TO-DATE
+> Task :mediaserviceinterfaces:checkDebugAarMetadata UP-TO-DATE
+> Task :media3-ui:checkDebugAarMetadata UP-TO-DATE
+> Task :mediaserviceinterfaces:stripDebugDebugSymbols NO-SOURCE
+> Task :crashlytics-empty:checkDebugAarMetadata UP-TO-DATE
+> Task :mediaserviceinterfaces:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :sharedtests:preBuild UP-TO-DATE
+> Task :sharedtests:preDebugBuild UP-TO-DATE
+> Task :androidApp:checkDebugDuplicateClasses UP-TO-DATE
+> Task :media3:checkDebugAarMetadata UP-TO-DATE
+> Task :androidApp:checkDebugAarMetadata UP-TO-DATE
+> Task :androidApp:processDebugNavigationResources UP-TO-DATE
+> Task :mediaserviceinterfaces:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :sharedtests:checkDebugAarMetadata UP-TO-DATE
+> Task :androidApp:compileDebugNavigationResources UP-TO-DATE
+> Task :sharedtests:generateDebugResValues UP-TO-DATE
+> Task :androidApp:parseDebugLocalResources UP-TO-DATE
+> Task :mediaserviceinterfaces:mergeDebugJavaResource UP-TO-DATE
+> Task :mediaserviceinterfaces:prepareLintJarForPublish UP-TO-DATE
+> Task :mediaserviceinterfaces:prepareDebugArtProfile UP-TO-DATE
+> Task :sharedtests:generateDebugResources UP-TO-DATE
+> Task :sharedtests:javaPreCompileDebug UP-TO-DATE
+> Task :sharedtests:mergeDebugShaders UP-TO-DATE
+> Task :sharedtests:processDebugNavigationResources UP-TO-DATE
+> Task :sharedtests:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :sharedtests:prepareLintJarForPublish UP-TO-DATE
+> Task :sharedtests:prepareDebugArtProfile UP-TO-DATE
+> Task :sharedtests:writeDebugAarMetadata UP-TO-DATE
+> Task :sharedutils:stripDebugDebugSymbols NO-SOURCE
+> Task :sharedtests:processDebugManifest UP-TO-DATE
+> Task :sharedtests:mergeDebugJniLibFolders UP-TO-DATE
+> Task :sharedutils:checkDebugAarMetadata UP-TO-DATE
+> Task :sharedtests:packageDebugResources UP-TO-DATE
+> Task :sharedutils:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :androidApp:mergeDebugNativeLibs UP-TO-DATE
+> Task :sharedtests:mergeDebugNativeLibs NO-SOURCE
+> Task :sharedtests:stripDebugDebugSymbols NO-SOURCE
+> Task :sharedutils:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :sharedtests:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :sharedtests:compileDebugShaders NO-SOURCE
+> Task :sharedtests:generateDebugAssets UP-TO-DATE
+> Task :sharedtests:processDebugJavaRes NO-SOURCE
+> Task :sharedtests:mergeDebugAssets UP-TO-DATE
+> Task :youtubeapi:stripDebugDebugSymbols NO-SOURCE
+> Task :youtubeapi:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :youtubeapi:prepareDebugArtProfile UP-TO-DATE
+> Task :youtubeapi:prepareLintJarForPublish UP-TO-DATE
+> Task :sharedutils:prepareDebugArtProfile UP-TO-DATE
+> Task :youtubeapi:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :sharedtests:parseDebugLocalResources UP-TO-DATE
+> Task :sharedtests:mergeDebugJavaResource UP-TO-DATE
+> Task :sharedutils:prepareLintJarForPublish UP-TO-DATE
+> Task :sharedtests:generateDebugRFile UP-TO-DATE
+> Task :youtubeapi:checkDebugAarMetadata UP-TO-DATE
+> Task :sharedtests:compileDebugJavaWithJavac UP-TO-DATE
+> Task :sharedtests:extractDebugAnnotations UP-TO-DATE
+> Task :sharedtests:syncDebugLibJars UP-TO-DATE
+> Task :sharedtests:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :sharedtests:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :sharedtests:bundleDebugAar UP-TO-DATE
+> Task :sharedtests:assembleDebug UP-TO-DATE
+> Task :androidApp:stripDebugDebugSymbols UP-TO-DATE
+> Task :androidApp:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :ktorExt:compileAndroidMain UP-TO-DATE
+> Task :common:compileAndroidMain UP-TO-DATE
+> Task :common:bundleAndroidMainClassesToCompileJar UP-TO-DATE
+> Task :ktorExt:bundleAndroidMainClassesToCompileJar UP-TO-DATE
+> Task :domain:kspAndroidMain SKIPPED
+> Task :androidApp:mergeExtDexDebug UP-TO-DATE
+> Task :common:bundleAndroidMainClassesToRuntimeJar UP-TO-DATE
+> Task :ktorExt:bundleAndroidMainClassesToRuntimeJar UP-TO-DATE
+> Task :sharedutils:compileDebugKotlin UP-TO-DATE
+> Task :ktorExt:processAndroidMainJavaRes UP-TO-DATE
+> Task :sharedutils:processDebugJavaRes UP-TO-DATE
+> Task :sharedutils:mergeDebugJavaResource UP-TO-DATE
+> Task :ktorExt:bundleLibRuntimeToDirAndroidMain UP-TO-DATE
+> Task :common:processAndroidMainJavaRes UP-TO-DATE
+> Task :common:bundleLibRuntimeToDirAndroidMain UP-TO-DATE
+> Task :sharedutils:extractDebugAnnotations UP-TO-DATE
+> Task :sharedutils:compileReleaseKotlin UP-TO-DATE
+> Task :androidApp:processDebugMainManifest UP-TO-DATE
+> Task :sharedutils:compileDebugJavaWithJavac UP-TO-DATE
+> Task :sharedutils:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :mediaserviceinterfaces:compileDebugJavaWithJavac UP-TO-DATE
+> Task :sharedutils:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :androidApp:processDebugManifest UP-TO-DATE
+> Task :mediaserviceinterfaces:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :mediaserviceinterfaces:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :androidApp:processDebugManifestForPackage UP-TO-DATE
+> Task :sharedutils:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :sharedutils:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :mediaserviceinterfaces:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :sharedutils:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :sharedutils:syncDebugLibJars UP-TO-DATE
+> Task :mediaserviceinterfaces:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :mediaserviceinterfaces:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :mediaserviceinterfaces:extractDebugAnnotations UP-TO-DATE
+> Task :sharedutils:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :mediaserviceinterfaces:syncDebugLibJars UP-TO-DATE
+> Task :mediaserviceinterfaces:bundleDebugAar UP-TO-DATE
+> Task :mediaserviceinterfaces:assembleDebug UP-TO-DATE
+> Task :mediaserviceinterfaces:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :mediaserviceinterfaces:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :sharedutils:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :sharedutils:bundleDebugAar UP-TO-DATE
+> Task :sharedutils:assembleDebug UP-TO-DATE
+> Task :domain:compileAndroidMain UP-TO-DATE
+> Task :domain:bundleAndroidMainClassesToCompileJar UP-TO-DATE
+> Task :domain:bundleAndroidMainClassesToRuntimeJar UP-TO-DATE
+> Task :spotify:compileAndroidMain UP-TO-DATE
+> Task :aiService:compileAndroidMain UP-TO-DATE
+> Task :aiService:bundleAndroidMainClassesToCompileJar UP-TO-DATE
+> Task :spotify:bundleAndroidMainClassesToCompileJar UP-TO-DATE
+> Task :aiService:bundleAndroidMainClassesToRuntimeJar UP-TO-DATE
+> Task :spotify:bundleAndroidMainClassesToRuntimeJar UP-TO-DATE
+> Task :aiService:processAndroidMainJavaRes UP-TO-DATE
+> Task :domain:processAndroidMainJavaRes UP-TO-DATE
+> Task :spotify:processAndroidMainJavaRes UP-TO-DATE
+> Task :aiService:bundleLibRuntimeToDirAndroidMain UP-TO-DATE
+> Task :spotify:bundleLibRuntimeToDirAndroidMain UP-TO-DATE
+> Task :domain:bundleLibRuntimeToDirAndroidMain UP-TO-DATE
+> Task :kizzy:compileAndroidMain UP-TO-DATE
+> Task :androidApp:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :lyricsService:compileAndroidMain UP-TO-DATE
+> Task :lyricsService:bundleAndroidMainClassesToCompileJar UP-TO-DATE
+> Task :lyricsService:bundleAndroidMainClassesToRuntimeJar UP-TO-DATE
+> Task :lyricsService:processAndroidMainJavaRes UP-TO-DATE
+> Task :lyricsService:bundleLibRuntimeToDirAndroidMain UP-TO-DATE
+> Task :kizzy:processAndroidMainJavaRes
+> Task :media3:compileReleaseKotlin UP-TO-DATE
+> Task :media3:compileReleaseJavaWithJavac NO-SOURCE
+> Task :crashlytics-empty:compileDebugKotlin UP-TO-DATE
+> Task :crashlytics:compileDebugKotlin UP-TO-DATE
+> Task :media3-ui:compileReleaseKotlin UP-TO-DATE
+> Task :media3-ui:compileDebugKotlin UP-TO-DATE
+> Task :crashlytics-empty:compileDebugJavaWithJavac NO-SOURCE
+> Task :crashlytics-empty:processDebugJavaRes UP-TO-DATE
+> Task :media3-ui:compileReleaseJavaWithJavac NO-SOURCE
+> Task :crashlytics-empty:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :crashlytics:extractDebugAnnotations UP-TO-DATE
+> Task :media3-ui:compileDebugJavaWithJavac NO-SOURCE
+> Task :crashlytics-empty:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :media3-ui:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :media3-ui:processDebugJavaRes UP-TO-DATE
+> Task :crashlytics-empty:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :media3-ui:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :media3-ui:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :crashlytics:compileDebugJavaWithJavac NO-SOURCE
+> Task :media3-ui:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :crashlytics:processDebugJavaRes UP-TO-DATE
+> Task :crashlytics:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :crashlytics:mergeDebugJavaResource UP-TO-DATE
+> Task :crashlytics:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :crashlytics:syncDebugLibJars UP-TO-DATE
+> Task :media3:compileDebugKotlin UP-TO-DATE
+> Task :crashlytics-empty:extractDebugAnnotations UP-TO-DATE
+> Task :crashlytics-empty:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :crashlytics:bundleDebugAar UP-TO-DATE
+> Task :crashlytics:assembleDebug UP-TO-DATE
+> Task :crashlytics-empty:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :crashlytics-empty:mergeDebugJavaResource UP-TO-DATE
+> Task :crashlytics-empty:syncDebugLibJars UP-TO-DATE
+> Task :crashlytics-empty:bundleDebugAar UP-TO-DATE
+> Task :crashlytics-empty:assembleDebug UP-TO-DATE
+> Task :media3-ui:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :media3-ui:extractDebugAnnotations UP-TO-DATE
+> Task :media3-ui:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :media3-ui:mergeDebugJavaResource UP-TO-DATE
+> Task :media3:compileDebugJavaWithJavac NO-SOURCE
+> Task :media3:processDebugJavaRes
+> Task :media3:mergeDebugGeneratedProguardFiles
+> Task :media3:mergeDebugConsumerProguardFiles
+> Task :youtubeapi:compileReleaseKotlin UP-TO-DATE
+> Task :youtubeapi:compileDebugKotlin UP-TO-DATE
+> Task :youtubeapi:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :youtubeapi:compileDebugJavaWithJavac UP-TO-DATE
+> Task :kizzy:bundleAndroidMainClassesToRuntimeJar
+> Task :media3:bundleLibRuntimeToJarDebug
+> Task :media3:bundleLibCompileToJarRelease
+> Task :media3-ui:syncDebugLibJars
+> Task :youtubeapi:processDebugJavaRes UP-TO-DATE
+> Task :kizzy:bundleLibRuntimeToDirAndroidMain
+> Task :kizzy:bundleAndroidMainClassesToCompileJar
+> Task :media3:bundleLibRuntimeToDirDebug
+> Task :media3:bundleLibCompileToJarDebug
+> Task :youtubeapi:mergeDebugGeneratedProguardFiles
+> Task :youtubeapi:extractDebugAnnotations UP-TO-DATE
+> Task :media3-ui:bundleDebugAar
+> Task :media3-ui:assembleDebug
+> Task :youtubeapi:mergeDebugJavaResource UP-TO-DATE
+> Task :youtubeapi:mergeDebugConsumerProguardFiles
+> Task :media3:mergeDebugJavaResource
+> Task :youtubeapi:bundleLibRuntimeToJarDebug
+> Task :youtubeapi:bundleLibCompileToJarRelease
+> Task :media3:extractDebugAnnotations
+> Task :media3:syncDebugLibJars
+> Task :media3:bundleDebugAar
+> Task :media3:assembleDebug
+> Task :androidApp:processDebugResources UP-TO-DATE
+> Task :youtubeapi:syncDebugLibJars
+> Task :youtubeapi:bundleDebugAar
+> Task :youtubeapi:assembleDebug
+> Task :youtubeapi:bundleLibRuntimeToDirDebug
+> Task :googleapi:compileDebugKotlin
+> Task :kotlinYtmusicScraper:compileAndroidMain
+
+> Task :googleapi:compileDebugKotlin FAILED
+.\gradlew.bat : e: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/M
+ediaServiceCore/googleapi/src/main/java/com/liskovsoft/googleapi/common/hel
+pers/RetrofitOkHttpHelper.kt:6:42 Cannot access 'class OkHttpCommons : 
+Any': it is package-private in file.
+In riga:1 car:65
++ ... oid Studio\jbr"; .\gradlew.bat assembleDebug --no-daemon 2>&1 | 
+Out-F ...
++                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (e: file:///C:/U...rivate in f 
+   ile.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+e: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/
+googleapi/src/main/java/com/liskovsoft/googleapi/common/helpers/RetrofitOkH
+ttpHelper.kt:8:33 Unresolved reference 'app'.
+e: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/
+googleapi/src/main/java/com/liskovsoft/googleapi/common/helpers/RetrofitOkH
+ttpHelper.kt:35:25 Unresolved reference 'DefaultHeaders'.
+e: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/
+googleapi/src/main/java/com/liskovsoft/googleapi/common/helpers/RetrofitOkH
+ttpHelper.kt:37:30 Unresolved reference 'DefaultHeaders'.
+e: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/
+googleapi/src/main/java/com/liskovsoft/googleapi/common/helpers/RetrofitOkH
+ttpHelper.kt:53:9 Cannot access 'class OkHttpCommons : Any': it is 
+package-private in file.
+e: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/
+googleapi/src/main/java/com/liskovsoft/googleapi/common/helpers/RetrofitOkH
+ttpHelper.kt:53:23 Cannot access 'class OkHttpCommons : Any': it is 
+package-private in file.
+e: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/
+googleapi/src/main/java/com/liskovsoft/googleapi/common/helpers/RetrofitOkH
+ttpHelper.kt:71:51 Unresolved reference 'AppConstants'.
+e: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/
+googleapi/src/main/java/com/liskovsoft/googleapi/common/helpers/RetrofitOkH
+ttpHelper.kt:116:46 Argument type mismatch: actual type is 'Context?', but 
+'Context' was expected.
+
+> Task :kotlinYtmusicScraper:compileAndroidMain
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/androidMain/kotlin/com/maxrave/kotlinytmusicscraper/extractor/Extractor.android.kt:61:27 Unnecessary safe call on a non-null receiver of type 'YoutubeDL'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/androidMain/kotlin/com/maxrave/kotlinytmusicscraper/extractor/NewPipeUtils.kt:62:49 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/YouTube.kt:553:33 Unnecessary safe call on a non-null receiver of type 'BrowseResponse.Header'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/YouTube.kt:558:37 Unnecessary safe call on a non-null receiver of type 'BrowseResponse.Header'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/YouTube.kt:564:33 Unnecessary safe call on a non-null receiver of type 'BrowseResponse.Header'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/YouTube.kt:571:33 Unnecessary safe call on a non-null receiver of type 'BrowseResponse.Header'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/YouTube.kt:589:25 Unnecessary safe call on a non-null receiver of type 'BrowseResponse.Header'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/YouTube.kt:596:25 Unnecessary safe call on a non-null receiver of type 'BrowseResponse.Header'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/models/MusicTwoRowItemRenderer.kt:27:31 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/models/MusicTwoRowItemRenderer.kt:34:33 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/models/MusicTwoRowItemRenderer.kt:44:17 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/models/MusicTwoRowItemRenderer.kt:53:17 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/models/MusicTwoRowItemRenderer.kt:59:21 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/models/MusicTwoRowItemRenderer.kt:67:17 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/models/MusicTwoRowItemRenderer.kt:74:31 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/models/MusicTwoRowItemRenderer.kt:81:33 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/NewReleaseAlbumPage.kt:12:51 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/NewReleaseAlbumPage.kt:23:21 Unnecessary safe call on a non-null receiver of type 'Runs'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/NewReleaseAlbumPage.kt:38:51 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:78:57 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:81:33 Unnecessary safe call on a non-null receiver of type 'Runs'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:101:63 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:107:57 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:110:33 Unnecessary safe call on a non-null receiver of type 'Runs'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:122:63 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:129:56 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:150:33 Unnecessary safe call on a non-null receiver of type 'Runs'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:161:55 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:173:33 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:179:33 Unnecessary safe call on a non-null receiver of type 'Runs'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:195:55 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:235:57 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:238:33 Unnecessary safe call on a non-null receiver of type 'Runs'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:242:55 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/parser/PlaylistParser.kt:372:17 Unnecessary safe call on a non-null receiver of type 'MusicResponsiveListItemRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/parser/PlaylistParser.kt:385:49 Unnecessary safe call on a non-null receiver of type 'MusicResponsiveListItemRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/parser/PlaylistParser.kt:390:17 Unnecessary safe call on a non-null receiver of type 'MusicResponsiveListItemRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/parser/PlaylistParser.kt:401:54 Unnecessary safe call on a non-null receiver of type 'MusicResponsiveListItemRenderer'.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':googleapi:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.Gr
+adleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1m 39s
+443 actionable tasks: 36 executed, 407 up-to-date
+Configuration cache entry reused.

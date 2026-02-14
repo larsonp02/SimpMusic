@@ -1,0 +1,50 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Calculating task graph as no cached configuration is available for tasks: :sharedutils:assembleDebug
+Type-safe project accessors is an incubating feature.
+> Task :sharedutils:preBuild UP-TO-DATE
+> Task :sharedutils:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :sharedutils:preDebugBuild UP-TO-DATE
+> Task :sharedutils:processDebugManifest UP-TO-DATE
+> Task :sharedutils:prepareDebugArtProfile UP-TO-DATE
+> Task :sharedutils:prepareLintJarForPublish UP-TO-DATE
+> Task :sharedutils:writeDebugAarMetadata UP-TO-DATE
+> Task :sharedutils:mergeDebugJniLibFolders UP-TO-DATE
+> Task :sharedutils:processDebugNavigationResources UP-TO-DATE
+> Task :sharedutils:mergeDebugShaders UP-TO-DATE
+> Task :sharedutils:generateDebugResValues UP-TO-DATE
+> Task :sharedutils:javaPreCompileDebug UP-TO-DATE
+> Task :sharedutils:generateDebugResources UP-TO-DATE
+> Task :sharedutils:mergeDebugNativeLibs NO-SOURCE
+> Task :sharedutils:compileDebugShaders NO-SOURCE
+> Task :sharedutils:generateDebugAssets UP-TO-DATE
+> Task :sharedutils:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :sharedutils:stripDebugDebugSymbols NO-SOURCE
+> Task :sharedutils:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :sharedutils:mergeDebugAssets UP-TO-DATE
+> Task :sharedutils:packageDebugResources UP-TO-DATE
+> Task :sharedutils:parseDebugLocalResources UP-TO-DATE
+> Task :sharedutils:generateDebugRFile UP-TO-DATE
+> Task :sharedutils:checkDebugAarMetadata UP-TO-DATE
+> Task :sharedutils:compileDebugKotlin UP-TO-DATE
+> Task :sharedutils:processDebugJavaRes UP-TO-DATE
+> Task :sharedutils:mergeDebugJavaResource UP-TO-DATE
+> Task :sharedutils:extractDebugAnnotations UP-TO-DATE
+> Task :sharedutils:compileDebugJavaWithJavac UP-TO-DATE
+> Task :sharedutils:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :sharedutils:syncDebugLibJars UP-TO-DATE
+> Task :sharedutils:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :sharedutils:bundleDebugAar UP-TO-DATE
+> Task :sharedutils:assembleDebug UP-TO-DATE
+
+[Incubating] Problems report is available at: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 17s
+26 actionable tasks: 26 up-to-date
+Configuration cache entry stored.

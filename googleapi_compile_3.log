@@ -1,0 +1,43 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Reusing configuration cache.
+> Task :sharedutils:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :sharedutils:preBuild UP-TO-DATE
+> Task :googleapi:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :googleapi:preBuild UP-TO-DATE
+> Task :mediaserviceinterfaces:preBuild UP-TO-DATE
+> Task :sharedutils:preDebugBuild UP-TO-DATE
+> Task :googleapi:preDebugBuild UP-TO-DATE
+> Task :mediaserviceinterfaces:preDebugBuild UP-TO-DATE
+> Task :sharedutils:generateDebugResValues UP-TO-DATE
+> Task :mediaserviceinterfaces:javaPreCompileDebug UP-TO-DATE
+> Task :mediaserviceinterfaces:processDebugNavigationResources UP-TO-DATE
+> Task :sharedutils:processDebugNavigationResources UP-TO-DATE
+> Task :googleapi:generateDebugResValues UP-TO-DATE
+> Task :mediaserviceinterfaces:generateDebugResValues UP-TO-DATE
+> Task :sharedutils:javaPreCompileDebug UP-TO-DATE
+> Task :googleapi:processDebugNavigationResources UP-TO-DATE
+> Task :mediaserviceinterfaces:generateDebugResources UP-TO-DATE
+> Task :sharedutils:generateDebugResources UP-TO-DATE
+> Task :googleapi:generateDebugResources UP-TO-DATE
+> Task :googleapi:packageDebugResources UP-TO-DATE
+> Task :sharedutils:packageDebugResources UP-TO-DATE
+> Task :mediaserviceinterfaces:packageDebugResources UP-TO-DATE
+> Task :googleapi:parseDebugLocalResources UP-TO-DATE
+> Task :sharedutils:parseDebugLocalResources UP-TO-DATE
+> Task :mediaserviceinterfaces:parseDebugLocalResources UP-TO-DATE
+> Task :mediaserviceinterfaces:generateDebugRFile UP-TO-DATE
+> Task :sharedutils:generateDebugRFile UP-TO-DATE
+> Task :googleapi:generateDebugRFile UP-TO-DATE
+> Task :sharedutils:compileDebugKotlin UP-TO-DATE
+> Task :sharedutils:compileDebugJavaWithJavac UP-TO-DATE
+> Task :sharedutils:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :mediaserviceinterfaces:compileDebugJavaWithJavac UP-TO-DATE
+> Task :mediaserviceinterfaces:bundleLibCompileToJarDebug UP-TO-DATE
+
+> Task :googleapi:compileDebugKotlin
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/googleapi/src/main/java/com/liskovsoft/googleapi/common/helpers/RetrofitOkHttpHelper.kt:156:30 Unnecessary safe call on a non-null receiver of type 'HttpUrl.Builder'.
+
+BUILD SUCCESSFUL in 11s
+26 actionable tasks: 1 executed, 25 up-to-date
+Configuration cache entry reused.

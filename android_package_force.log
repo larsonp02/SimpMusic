@@ -1,0 +1,604 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Calculating task graph as no cached configuration is available for tasks: :androidApp:packageDebug
+Type-safe project accessors is an incubating feature.
+> Task :androidApp:preBuild UP-TO-DATE
+> Task :androidApp:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :kotlinYtmusicScraper:androidPreBuild UP-TO-DATE
+> Task :composeApp:androidPreBuild UP-TO-DATE
+> Task :media3:preBuild UP-TO-DATE
+> Task :ktorExt:androidPreBuild UP-TO-DATE
+> Task :data:androidPreBuild UP-TO-DATE
+> Task :aiService:androidPreBuild UP-TO-DATE
+> Task :media3-ui:preBuild UP-TO-DATE
+> Task :domain:androidPreBuild UP-TO-DATE
+> Task :kizzy:androidPreBuild UP-TO-DATE
+> Task :lyricsService:androidPreBuild UP-TO-DATE
+> Task :common:androidPreBuild UP-TO-DATE
+> Task :crashlytics-empty:preBuild UP-TO-DATE
+> Task :kizzy:preAndroidMainBuild UP-TO-DATE
+> Task :media3:preDebugBuild UP-TO-DATE
+> Task :ktorExt:preAndroidMainBuild UP-TO-DATE
+> Task :common:preAndroidMainBuild UP-TO-DATE
+> Task :crashlytics-empty:preDebugBuild UP-TO-DATE
+> Task :aiService:preAndroidMainBuild UP-TO-DATE
+> Task :kotlinYtmusicScraper:preAndroidMainBuild UP-TO-DATE
+> Task :composeApp:preAndroidMainBuild UP-TO-DATE
+> Task :androidApp:preDebugBuild UP-TO-DATE
+> Task :lyricsService:preAndroidMainBuild UP-TO-DATE
+> Task :domain:preAndroidMainBuild UP-TO-DATE
+> Task :media3-ui:preDebugBuild UP-TO-DATE
+> Task :data:preAndroidMainBuild UP-TO-DATE
+> Task :mediaserviceinterfaces:preBuild UP-TO-DATE
+> Task :mediaserviceinterfaces:preDebugBuild UP-TO-DATE
+> Task :composeApp:convertXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForAndroidMain NO-SOURCE
+> Task :sharedutils:preBuild UP-TO-DATE
+> Task :sharedutils:preDebugBuild UP-TO-DATE
+> Task :androidApp:generateDebugResValues
+> Task :sharedutils:generateDebugResValues
+> Task :mediaserviceinterfaces:generateDebugResValues
+> Task :media3:generateDebugResValues
+> Task :crashlytics-empty:generateDebugResValues
+> Task :media3-ui:generateDebugResValues
+> Task :lyricsService:generateAndroidMainEmptyResourceFiles
+> Task :common:generateAndroidMainEmptyResourceFiles
+> Task :data:generateAndroidMainEmptyResourceFiles
+> Task :kizzy:generateAndroidMainEmptyResourceFiles
+> Task :kotlinYtmusicScraper:generateAndroidMainEmptyResourceFiles
+> Task :aiService:generateAndroidMainEmptyResourceFiles
+> Task :domain:generateAndroidMainEmptyResourceFiles
+> Task :ktorExt:generateAndroidMainEmptyResourceFiles
+> Task :youtubeapi:preBuild UP-TO-DATE
+> Task :youtubeapi:preDebugBuild UP-TO-DATE
+> Task :spotify:androidPreBuild UP-TO-DATE
+> Task :spotify:preAndroidMainBuild UP-TO-DATE
+> Task :composeApp:generateAndroidMainEmptyResourceFiles
+> Task :youtubeapi:generateDebugResValues
+> Task :crashlytics-empty:processDebugNavigationResources
+> Task :youtubeapi:processDebugNavigationResources
+> Task :crashlytics-empty:generateDebugResources
+> Task :media3-ui:generateDebugResources
+> Task :mediaserviceinterfaces:generateDebugResources
+> Task :sharedutils:processDebugNavigationResources
+> Task :media3-ui:processDebugNavigationResources
+> Task :media3:generateDebugResources
+> Task :media3:processDebugNavigationResources
+> Task :mediaserviceinterfaces:processDebugNavigationResources
+> Task :spotify:generateAndroidMainEmptyResourceFiles
+> Task :youtubeapi:generateDebugResources
+> Task :androidApp:generateDebugResources
+> Task :sharedutils:generateDebugResources
+> Task :androidApp:generateDebugBuildConfig
+> Task :crashlytics-empty:writeDebugAarMetadata
+> Task :kizzy:writeAndroidMainAarMetadata
+> Task :composeApp:writeAndroidMainAarMetadata
+> Task :ktorExt:writeAndroidMainAarMetadata
+> Task :crashlytics-empty:packageDebugResources
+> Task :mediaserviceinterfaces:packageDebugResources
+> Task :youtubeapi:packageDebugResources
+> Task :media3:packageDebugResources
+> Task :kotlinYtmusicScraper:writeAndroidMainAarMetadata
+> Task :media3:writeDebugAarMetadata
+> Task :lyricsService:writeAndroidMainAarMetadata
+> Task :media3-ui:writeDebugAarMetadata
+> Task :sharedutils:packageDebugResources
+> Task :media3-ui:packageDebugResources
+> Task :domain:writeAndroidMainAarMetadata
+> Task :spotify:writeAndroidMainAarMetadata
+> Task :androidApp:packageDebugResources
+> Task :composeApp:copyNonXmlValueResourcesForCommonMain
+> Task :androidApp:createDebugCompatibleScreenManifests
+> Task :media3-ui:parseDebugLocalResources
+> Task :crashlytics-empty:parseDebugLocalResources
+> Task :data:writeAndroidMainAarMetadata
+> Task :androidApp:extractDeepLinksDebug
+> Task :media3:parseDebugLocalResources
+> Task :mediaserviceinterfaces:parseDebugLocalResources
+> Task :aiService:writeAndroidMainAarMetadata
+> Task :mediaserviceinterfaces:writeDebugAarMetadata
+> Task :crashlytics-empty:extractDeepLinksDebug
+> Task :sharedutils:parseDebugLocalResources
+> Task :crashlytics-empty:generateDebugRFile
+> Task :data:processAndroidMainManifest
+> Task :common:processAndroidMainManifest
+> Task :mediaserviceinterfaces:generateDebugRFile
+> Task :youtubeapi:parseDebugLocalResources
+> Task :composeApp:processAndroidMainManifest
+> Task :youtubeapi:generateDebugRFile
+> Task :kotlinYtmusicScraper:processAndroidMainManifest
+> Task :common:writeAndroidMainAarMetadata
+> Task :media3:extractDeepLinksDebug
+> Task :media3-ui:extractDeepLinksDebug
+> Task :lyricsService:processAndroidMainManifest
+> Task :mediaserviceinterfaces:extractDeepLinksDebug
+> Task :aiService:processAndroidMainManifest
+> Task :sharedutils:extractDeepLinksDebug
+> Task :composeApp:convertXmlValueResourcesForCommonMain
+
+> Task :sharedutils:processDebugManifest
+package="com.liskovsoft.sharedutils" found in source AndroidManifest.xml: C:\Users\larso\AndroidStudioProjects\SimpMusic\MediaServiceCore\SharedModules\sharedutils\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.liskovsoft.sharedutils" from the source AndroidManifest.xml: C:\Users\larso\AndroidStudioProjects\SimpMusic\MediaServiceCore\SharedModules\sharedutils\src\main\AndroidManifest.xml.
+
+> Task :composeApp:prepareComposeResourcesTaskForCommonMain
+> Task :media3-ui:generateDebugRFile
+> Task :youtubeapi:extractDeepLinksDebug
+> Task :crashlytics-empty:processDebugManifest
+> Task :media3:generateDebugRFile
+> Task :youtubeapi:writeDebugAarMetadata
+> Task :sharedutils:generateDebugRFile
+> Task :crashlytics-empty:compileDebugLibraryResources
+
+> Task :mediaserviceinterfaces:processDebugManifest
+package="com.liskovsoft.mediaserviceinterfaces" found in source AndroidManifest.xml: C:\Users\larso\AndroidStudioProjects\SimpMusic\MediaServiceCore\mediaserviceinterfaces\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.liskovsoft.mediaserviceinterfaces" from the source AndroidManifest.xml: C:\Users\larso\AndroidStudioProjects\SimpMusic\MediaServiceCore\mediaserviceinterfaces\src\main\AndroidManifest.xml.
+
+> Task :sharedutils:writeDebugAarMetadata
+
+> Task :youtubeapi:processDebugManifest
+package="com.liskovsoft.youtubeapi" found in source AndroidManifest.xml: C:\Users\larso\AndroidStudioProjects\SimpMusic\MediaServiceCore\youtubeapi\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.liskovsoft.youtubeapi" from the source AndroidManifest.xml: C:\Users\larso\AndroidStudioProjects\SimpMusic\MediaServiceCore\youtubeapi\src\main\AndroidManifest.xml.
+
+> Task :common:kmpPartiallyResolvedDependenciesChecker
+> Task :common:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :media3:processDebugManifest
+> Task :composeApp:kmpPartiallyResolvedDependenciesChecker
+> Task :spotify:processAndroidMainManifest
+> Task :composeApp:generateResourceAccessorsForAndroidMain NO-SOURCE
+> Task :kizzy:processAndroidMainManifest
+> Task :composeApp:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :androidApp:processDebugNavigationResources
+> Task :mediaserviceinterfaces:compileDebugLibraryResources
+> Task :media3-ui:processDebugManifest
+> Task :domain:processAndroidMainManifest
+> Task :aiService:kmpPartiallyResolvedDependenciesChecker
+> Task :aiService:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :domain:kmpPartiallyResolvedDependenciesChecker
+> Task :domain:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :data:kmpPartiallyResolvedDependenciesChecker
+> Task :data:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :composeApp:generateBuildKonfig
+> Task :ktorExt:kmpPartiallyResolvedDependenciesChecker
+> Task :ktorExt:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :kizzy:kmpPartiallyResolvedDependenciesChecker
+> Task :kizzy:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :kotlinYtmusicScraper:kmpPartiallyResolvedDependenciesChecker
+> Task :kotlinYtmusicScraper:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :sharedutils:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :sharedutils:preReleaseBuild UP-TO-DATE
+> Task :sharedutils:generateReleaseResValues
+> Task :sharedutils:generateReleaseResources
+> Task :composeApp:generateExpectResourceCollectorsForCommonMain
+> Task :composeApp:generateComposeResClass
+> Task :sharedutils:processReleaseNavigationResources
+> Task :mediaserviceinterfaces:preReleaseBuild UP-TO-DATE
+> Task :mediaserviceinterfaces:generateReleaseResValues
+> Task :mediaserviceinterfaces:generateReleaseResources
+> Task :androidApp:compileDebugNavigationResources
+> Task :mediaserviceinterfaces:processReleaseNavigationResources
+> Task :androidApp:parseDebugLocalResources
+> Task :youtubeapi:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :youtubeapi:preReleaseBuild UP-TO-DATE
+> Task :youtubeapi:generateReleaseResValues
+> Task :youtubeapi:compileDebugLibraryResources
+> Task :youtubeapi:generateReleaseResources
+> Task :media3-ui:compileDebugLibraryResources
+> Task :media3:compileDebugLibraryResources
+> Task :ktorExt:processAndroidMainManifest
+> Task :youtubeapi:processReleaseNavigationResources
+> Task :media3:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :media3:preReleaseBuild UP-TO-DATE
+> Task :mediaserviceinterfaces:packageReleaseResources
+> Task :lyricsService:kmpPartiallyResolvedDependenciesChecker
+> Task :sharedutils:packageReleaseResources
+> Task :lyricsService:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :media3:generateReleaseResValues
+> Task :media3:processReleaseNavigationResources
+> Task :media3:generateReleaseResources
+> Task :youtubeapi:packageReleaseResources
+> Task :sharedutils:compileDebugLibraryResources
+> Task :spotify:kmpPartiallyResolvedDependenciesChecker
+> Task :spotify:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :media3-ui:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :media3-ui:preReleaseBuild UP-TO-DATE
+> Task :media3-ui:generateReleaseResValues
+> Task :media3-ui:generateReleaseResources
+> Task :media3:packageReleaseResources
+> Task :sharedutils:javaPreCompileRelease
+> Task :media3-ui:processReleaseNavigationResources
+> Task :composeApp:copyAndroidMainComposeResourcesToAndroidAssets
+> Task :androidApp:checkDebugAarMetadata
+> Task :media3-ui:javaPreCompileRelease
+> Task :crashlytics-empty:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :media3-ui:packageReleaseResources
+> Task :mediaserviceinterfaces:javaPreCompileRelease
+> Task :youtubeapi:javaPreCompileRelease
+> Task :composeApp:javaPreCompileAndroidMain
+> Task :media3:parseReleaseLocalResources
+> Task :composeApp:packageAndroidMainResources
+> Task :media3:javaPreCompileDebug
+> Task :media3:javaPreCompileRelease
+> Task :androidApp:dataBindingMergeDependencyArtifactsDebug
+> Task :media3-ui:javaPreCompileDebug
+> Task :crashlytics-empty:javaPreCompileDebug
+> Task :composeApp:generateAndroidMainAssets UP-TO-DATE
+> Task :media3-ui:parseReleaseLocalResources
+> Task :youtubeapi:parseReleaseLocalResources
+> Task :mediaserviceinterfaces:parseReleaseLocalResources
+> Task :sharedutils:parseReleaseLocalResources
+> Task :youtubeapi:generateReleaseRFile
+> Task :media3:generateReleaseRFile
+> Task :media3:mergeDebugShaders
+> Task :media3:compileDebugShaders NO-SOURCE
+> Task :media3:generateDebugAssets UP-TO-DATE
+> Task :crashlytics-empty:mergeDebugShaders
+> Task :composeApp:parseAndroidMainLocalResources
+> Task :media3-ui:generateReleaseRFile
+> Task :crashlytics-empty:compileDebugShaders NO-SOURCE
+> Task :crashlytics-empty:generateDebugAssets UP-TO-DATE
+> Task :sharedutils:generateReleaseRFile
+> Task :androidApp:mergeDebugShaders
+> Task :mediaserviceinterfaces:generateReleaseRFile
+> Task :androidApp:compileDebugShaders NO-SOURCE
+> Task :androidApp:generateDebugAssets UP-TO-DATE
+> Task :sharedutils:mergeDebugShaders
+> Task :media3:mergeDebugAssets
+> Task :crashlytics-empty:mergeDebugAssets
+> Task :sharedutils:compileDebugShaders NO-SOURCE
+> Task :sharedutils:generateDebugAssets UP-TO-DATE
+> Task :composeApp:compileAndroidMainLibraryResources
+> Task :media3-ui:mergeDebugShaders
+> Task :media3-ui:compileDebugShaders NO-SOURCE
+> Task :media3-ui:generateDebugAssets UP-TO-DATE
+> Task :androidApp:javaPreCompileDebug
+> Task :sharedutils:mergeDebugAssets
+> Task :mediaserviceinterfaces:javaPreCompileDebug
+> Task :mediaserviceinterfaces:mergeDebugShaders
+> Task :mediaserviceinterfaces:compileDebugShaders NO-SOURCE
+> Task :mediaserviceinterfaces:generateDebugAssets UP-TO-DATE
+> Task :media3-ui:mergeDebugAssets
+> Task :composeApp:generateAndroidMainRFile
+> Task :androidApp:mapDebugSourceSetPaths
+> Task :youtubeapi:mergeDebugShaders
+> Task :mediaserviceinterfaces:mergeDebugAssets
+> Task :androidApp:desugarDebugFileDependencies
+> Task :mediaserviceinterfaces:processDebugJavaRes NO-SOURCE
+> Task :youtubeapi:compileDebugShaders NO-SOURCE
+> Task :youtubeapi:generateDebugAssets UP-TO-DATE
+> Task :composeApp:mergeAndroidMainAssets
+> Task :composeApp:mergeAndroidMainJniLibFolders
+> Task :composeApp:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :composeApp:copyAndroidMainJniLibsProjectOnly
+> Task :composeApp:generateResourceAccessorsForCommonMain
+> Task :composeApp:generateActualResourceCollectorsForAndroidMain
+> Task :data:mergeAndroidMainJniLibFolders
+> Task :data:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :common:mergeAndroidMainJniLibFolders
+> Task :common:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :data:copyAndroidMainJniLibsProjectOnly
+> Task :common:copyAndroidMainJniLibsProjectOnly
+> Task :kizzy:mergeAndroidMainJniLibFolders
+> Task :aiService:mergeAndroidMainJniLibFolders
+> Task :androidApp:mergeDebugJniLibFolders
+> Task :domain:mergeAndroidMainJniLibFolders
+> Task :sharedutils:javaPreCompileDebug
+> Task :crashlytics-empty:mergeDebugJniLibFolders
+> Task :youtubeapi:javaPreCompileDebug
+
+> Task :androidApp:processDebugMainManifest
+[org.chromium.net:cronet-embedded:141.7340.3] C:\Users\larso\.gradle\caches\8.14.3\transforms\923dbb91dd41b3c9faab46d008cb8616\transformed\jetified-cronet-embedded-141.7340.3\AndroidManifest.xml Warning:
+	Namespace 'org.chromium.net' is used in multiple modules and/or libraries: org.chromium.net:cronet-embedded:141.7340.3, org.chromium.net:httpengine-native-provider:141.7340.3, org.chromium.net:cronet-common:141.7340.3, org.chromium.net:cronet-api:141.7340.3, org.chromium.net:cronet-shared:141.7340.3. Please ensure that all modules and libraries have a unique namespace. For more information, See https://developer.android.com/studio/build/configure-app-module#set-namespace
+C:\Users\larso\AndroidStudioProjects\SimpMusic\androidApp\src\main\AndroidManifest.xml:55:9-41 Warning:
+	android:extractNativeLibs should not be specified in this source AndroidManifest.xml file. See https://d.android.com/guide/topics/manifest/application-element#extractNativeLibs for more information.
+The AGP Upgrade Assistant can remove the attribute from the AndroidManifest.xml file and update the build file accordingly. See https://d.android.com/studio/build/agp-upgrade-assistant for more information.
+
+> Task :domain:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :ktorExt:mergeAndroidMainJniLibFolders
+> Task :lyricsService:mergeAndroidMainJniLibFolders
+> Task :kotlinYtmusicScraper:mergeAndroidMainJniLibFolders
+> Task :aiService:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :kizzy:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :crashlytics-empty:mergeDebugNativeLibs NO-SOURCE
+> Task :lyricsService:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :domain:copyAndroidMainJniLibsProjectOnly
+> Task :youtubeapi:mergeDebugAssets
+> Task :kotlinYtmusicScraper:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :ktorExt:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :aiService:copyAndroidMainJniLibsProjectOnly
+> Task :kizzy:copyAndroidMainJniLibsProjectOnly
+> Task :crashlytics-empty:copyDebugJniLibsProjectOnly
+> Task :kotlinYtmusicScraper:copyAndroidMainJniLibsProjectOnly
+> Task :lyricsService:copyAndroidMainJniLibsProjectOnly
+> Task :media3:mergeDebugJniLibFolders
+> Task :ktorExt:copyAndroidMainJniLibsProjectOnly
+> Task :sharedutils:mergeDebugJniLibFolders
+> Task :spotify:mergeAndroidMainJniLibFolders
+> Task :youtubeapi:mergeDebugJniLibFolders
+> Task :mediaserviceinterfaces:mergeDebugJniLibFolders
+> Task :media3:mergeDebugNativeLibs NO-SOURCE
+> Task :spotify:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :youtubeapi:mergeDebugNativeLibs NO-SOURCE
+> Task :sharedutils:mergeDebugNativeLibs NO-SOURCE
+> Task :media3-ui:mergeDebugJniLibFolders
+> Task :media3:copyDebugJniLibsProjectOnly
+> Task :mediaserviceinterfaces:mergeDebugNativeLibs NO-SOURCE
+> Task :youtubeapi:copyDebugJniLibsProjectOnly
+> Task :spotify:copyAndroidMainJniLibsProjectOnly
+> Task :sharedutils:copyDebugJniLibsProjectOnly
+> Task :mediaserviceinterfaces:copyDebugJniLibsProjectOnly
+> Task :androidApp:writeDebugAppMetadata
+> Task :media3-ui:mergeDebugNativeLibs NO-SOURCE
+> Task :media3-ui:copyDebugJniLibsProjectOnly
+> Task :androidApp:writeDebugSigningConfigVersions
+> Task :androidApp:processDebugManifest
+> Task :androidApp:validateSigningDebug
+> Task :androidApp:processDebugManifestForPackage
+> Task :androidApp:checkDebugDuplicateClasses
+> Task :androidApp:mergeDebugAssets
+> Task :androidApp:compressDebugAssets
+> Task :androidApp:mergeDebugNativeLibs
+
+> Task :androidApp:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libavcodec.so, libavcodec_neon.so, libavdevice.so, libavdevice_neon.so, libavfilter.so, libavfilter_neon.so, libavformat.so, libavformat_neon.so, libavutil.so, libavutil_neon.so, libc++_shared.so, libcronet.141.0.7340.3.so, libdatastore_shared_counter.so, libffmpegkit.so, libffmpegkit_abidetect.so, libffmpegkit_armv7a_neon.so, libj2v8.so, libpython.so, libpython.zip.so, libqjs.so, libsqliteJni.so, libswresample.so, libswresample_neon.so, libswscale.so, libswscale_neon.so. Run with --info option to learn more.
+
+> Task :androidApp:mergeDebugResources
+> Task :androidApp:l8DexDesugarLibDebug
+> Task :androidApp:dataBindingGenBaseClassesDebug
+> Task :ktorExt:compileAndroidMain
+> Task :sharedutils:compileReleaseKotlin
+> Task :ktorExt:processAndroidMainJavaRes
+> Task :sharedutils:compileDebugKotlin
+> Task :ktorExt:bundleLibRuntimeToDirAndroidMain
+
+> Task :common:compileAndroidMain
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/common/src/commonMain/kotlin/com/maxrave/common/Config.kt:232:52 Redundant call of conversion method.
+
+> Task :sharedutils:processDebugJavaRes
+> Task :common:processAndroidMainJavaRes
+> Task :ktorExt:bundleAndroidMainClassesToRuntimeJar
+> Task :ktorExt:bundleAndroidMainClassesToCompileJar
+> Task :common:bundleAndroidMainClassesToCompileJar
+> Task :domain:kspAndroidMain SKIPPED
+> Task :common:bundleAndroidMainClassesToRuntimeJar
+> Task :common:bundleLibRuntimeToDirAndroidMain
+
+> Task :sharedutils:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :sharedutils:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :sharedutils:bundleLibCompileToJarRelease
+> Task :sharedutils:bundleLibCompileToJarDebug
+> Task :sharedutils:bundleLibRuntimeToJarDebug
+> Task :sharedutils:bundleLibRuntimeToDirDebug
+> Task :mediaserviceinterfaces:compileReleaseJavaWithJavac
+> Task :mediaserviceinterfaces:compileDebugJavaWithJavac
+> Task :mediaserviceinterfaces:bundleLibCompileToJarDebug
+> Task :mediaserviceinterfaces:bundleLibRuntimeToJarDebug
+> Task :mediaserviceinterfaces:bundleLibCompileToJarRelease
+> Task :mediaserviceinterfaces:bundleLibRuntimeToDirDebug
+> Task :androidApp:processDebugResources
+> Task :spotify:compileAndroidMain
+> Task :spotify:processAndroidMainJavaRes
+> Task :spotify:bundleAndroidMainClassesToRuntimeJar
+> Task :spotify:bundleAndroidMainClassesToCompileJar
+> Task :spotify:bundleLibRuntimeToDirAndroidMain
+
+> Task :domain:compileAndroidMain
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/domain/src/commonMain/kotlin/com/maxrave/domain/utils/ModelToEntity.kt:132:79 Unnecessary safe call on a non-null receiver of type 'String'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/domain/src/commonMain/kotlin/com/maxrave/domain/utils/ModelToEntity.kt:141:72 Elvis operator (?:) always returns the left operand of non-nullable type 'String'.
+
+> Task :domain:bundleAndroidMainClassesToCompileJar
+> Task :domain:processAndroidMainJavaRes
+> Task :domain:bundleAndroidMainClassesToRuntimeJar
+> Task :androidApp:mergeExtDexDebug
+> Task :crashlytics-empty:compileDebugKotlin
+> Task :crashlytics-empty:compileDebugJavaWithJavac NO-SOURCE
+> Task :crashlytics-empty:processDebugJavaRes
+> Task :crashlytics-empty:bundleLibCompileToJarDebug
+> Task :crashlytics-empty:bundleLibRuntimeToJarDebug
+> Task :crashlytics-empty:bundleLibRuntimeToDirDebug
+> Task :domain:bundleLibRuntimeToDirAndroidMain
+> Task :aiService:compileAndroidMain
+> Task :aiService:bundleAndroidMainClassesToCompileJar
+> Task :aiService:bundleAndroidMainClassesToRuntimeJar
+> Task :aiService:processAndroidMainJavaRes
+> Task :aiService:bundleLibRuntimeToDirAndroidMain
+> Task :lyricsService:compileAndroidMain
+> Task :lyricsService:bundleAndroidMainClassesToRuntimeJar
+> Task :lyricsService:processAndroidMainJavaRes
+> Task :lyricsService:bundleAndroidMainClassesToCompileJar
+> Task :lyricsService:bundleLibRuntimeToDirAndroidMain
+> Task :kizzy:compileAndroidMain
+> Task :kizzy:bundleAndroidMainClassesToCompileJar
+> Task :kizzy:bundleAndroidMainClassesToRuntimeJar
+> Task :kizzy:processAndroidMainJavaRes
+> Task :kizzy:bundleLibRuntimeToDirAndroidMain
+
+> Task :media3-ui:compileReleaseKotlin
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/media/media3-ui/src/main/java/com/maxrave/media3/ui/MediaPlayerView.kt:394:37 Unnecessary safe call on a non-null receiver of type 'ComponentActivity'.
+
+> Task :media3-ui:compileDebugKotlin
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/media/media3-ui/src/main/java/com/maxrave/media3/ui/MediaPlayerView.kt:394:37 Unnecessary safe call on a non-null receiver of type 'ComponentActivity'.
+
+> Task :media3-ui:compileDebugJavaWithJavac NO-SOURCE
+> Task :media3-ui:compileReleaseJavaWithJavac NO-SOURCE
+> Task :media3-ui:bundleLibCompileToJarDebug
+> Task :media3-ui:bundleLibCompileToJarRelease
+> Task :media3-ui:bundleLibRuntimeToJarDebug
+> Task :media3-ui:processDebugJavaRes
+> Task :media3-ui:bundleLibRuntimeToDirDebug
+
+> Task :media3:compileReleaseKotlin
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/media/media3/src/main/java/com/maxrave/media3/di/Media3ServiceModule.kt:409:18 'fun setEnableAudioTrackPlaybackParams(p0: Boolean): DefaultAudioSink.Builder' is deprecated. Deprecated in Java.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/media/media3/src/main/java/com/maxrave/media3/exoplayer/ExoPlayerAdapter.kt:32:8 Annotation 'androidx.media3.common.util.UnstableApi' is not annotated with '@RequiresOptIn'. '@OptIn' has no effect.
+
+> Task :media3:compileReleaseJavaWithJavac NO-SOURCE
+
+> Task :media3:compileDebugKotlin
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/media/media3/src/main/java/com/maxrave/media3/di/Media3ServiceModule.kt:409:18 'fun setEnableAudioTrackPlaybackParams(p0: Boolean): DefaultAudioSink.Builder' is deprecated. Deprecated in Java.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/media/media3/src/main/java/com/maxrave/media3/exoplayer/ExoPlayerAdapter.kt:32:8 Annotation 'androidx.media3.common.util.UnstableApi' is not annotated with '@RequiresOptIn'. '@OptIn' has no effect.
+
+> Task :media3:compileDebugJavaWithJavac NO-SOURCE
+> Task :media3:bundleLibCompileToJarRelease
+> Task :media3:bundleLibCompileToJarDebug
+> Task :media3:bundleLibRuntimeToJarDebug
+> Task :media3:processDebugJavaRes
+> Task :media3:bundleLibRuntimeToDirDebug
+
+> Task :youtubeapi:compileDebugKotlin
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/youtubeapi/src/main/java/com/liskovsoft/googleapi/drive3/DriveServiceInt.kt:21:32 'fun create(contentType: MediaType?, file: File): RequestBody' is deprecated. Moved to extension function. Put the 'file' argument first to fix Java.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/youtubeapi/src/main/java/com/liskovsoft/googleapi/drive3/DriveServiceInt.kt:26:32 'fun create(contentType: MediaType?, content: String): RequestBody' is deprecated. Moved to extension function. Put the 'content' argument first to fix Java.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/youtubeapi/src/main/java/com/liskovsoft/googlecommon/common/helpers/RetrofitOkHttpHelper.kt:148:30 Unnecessary safe call on a non-null receiver of type 'HttpUrl.Builder'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/youtubeapi/src/main/java/com/liskovsoft/youtubeapi/innertube/core/HTTPClient.kt:282:61 Unnecessary safe call on a non-null receiver of type 'Player'.
+
+> Task :youtubeapi:compileReleaseKotlin
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/youtubeapi/src/main/java/com/liskovsoft/googleapi/drive3/DriveServiceInt.kt:21:32 'fun create(contentType: MediaType?, file: File): RequestBody' is deprecated. Moved to extension function. Put the 'file' argument first to fix Java.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/youtubeapi/src/main/java/com/liskovsoft/googleapi/drive3/DriveServiceInt.kt:26:32 'fun create(contentType: MediaType?, content: String): RequestBody' is deprecated. Moved to extension function. Put the 'content' argument first to fix Java.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/youtubeapi/src/main/java/com/liskovsoft/googlecommon/common/helpers/RetrofitOkHttpHelper.kt:148:30 Unnecessary safe call on a non-null receiver of type 'HttpUrl.Builder'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/MediaServiceCore/youtubeapi/src/main/java/com/liskovsoft/youtubeapi/innertube/core/HTTPClient.kt:282:61 Unnecessary safe call on a non-null receiver of type 'Player'.
+
+> Task :youtubeapi:processDebugJavaRes
+
+> Task :youtubeapi:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :youtubeapi:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :youtubeapi:bundleLibCompileToJarRelease
+> Task :youtubeapi:bundleLibRuntimeToJarDebug
+> Task :youtubeapi:bundleLibRuntimeToDirDebug
+
+> Task :kotlinYtmusicScraper:compileAndroidMain
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/androidMain/kotlin/com/maxrave/kotlinytmusicscraper/extractor/Extractor.android.kt:61:27 Unnecessary safe call on a non-null receiver of type 'YoutubeDL'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/androidMain/kotlin/com/maxrave/kotlinytmusicscraper/extractor/NewPipeUtils.kt:62:49 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/YouTube.kt:553:33 Unnecessary safe call on a non-null receiver of type 'BrowseResponse.Header'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/YouTube.kt:558:37 Unnecessary safe call on a non-null receiver of type 'BrowseResponse.Header'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/YouTube.kt:564:33 Unnecessary safe call on a non-null receiver of type 'BrowseResponse.Header'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/YouTube.kt:571:33 Unnecessary safe call on a non-null receiver of type 'BrowseResponse.Header'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/YouTube.kt:589:25 Unnecessary safe call on a non-null receiver of type 'BrowseResponse.Header'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/YouTube.kt:596:25 Unnecessary safe call on a non-null receiver of type 'BrowseResponse.Header'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/models/MusicTwoRowItemRenderer.kt:27:31 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/models/MusicTwoRowItemRenderer.kt:34:33 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/models/MusicTwoRowItemRenderer.kt:44:17 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/models/MusicTwoRowItemRenderer.kt:53:17 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/models/MusicTwoRowItemRenderer.kt:59:21 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/models/MusicTwoRowItemRenderer.kt:67:17 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/models/MusicTwoRowItemRenderer.kt:74:31 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/models/MusicTwoRowItemRenderer.kt:81:33 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/NewReleaseAlbumPage.kt:12:51 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/NewReleaseAlbumPage.kt:23:21 Unnecessary safe call on a non-null receiver of type 'Runs'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/NewReleaseAlbumPage.kt:38:51 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:78:57 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:81:33 Unnecessary safe call on a non-null receiver of type 'Runs'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:101:63 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:107:57 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:110:33 Unnecessary safe call on a non-null receiver of type 'Runs'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:122:63 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:129:56 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:150:33 Unnecessary safe call on a non-null receiver of type 'Runs'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:161:55 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:173:33 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:179:33 Unnecessary safe call on a non-null receiver of type 'Runs'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:195:55 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:235:57 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:238:33 Unnecessary safe call on a non-null receiver of type 'Runs'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/pages/RelatedPage.kt:242:55 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/parser/PlaylistParser.kt:372:17 Unnecessary safe call on a non-null receiver of type 'MusicResponsiveListItemRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/parser/PlaylistParser.kt:385:49 Unnecessary safe call on a non-null receiver of type 'MusicResponsiveListItemRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/parser/PlaylistParser.kt:390:17 Unnecessary safe call on a non-null receiver of type 'MusicResponsiveListItemRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/parser/PlaylistParser.kt:401:54 Unnecessary safe call on a non-null receiver of type 'MusicResponsiveListItemRenderer'.
+
+> Task :kotlinYtmusicScraper:processAndroidMainJavaRes
+> Task :kotlinYtmusicScraper:bundleAndroidMainClassesToCompileJar
+> Task :kotlinYtmusicScraper:bundleAndroidMainClassesToRuntimeJar
+> Task :kotlinYtmusicScraper:bundleLibRuntimeToDirAndroidMain
+> Task :data:kspAndroidMain
+> Task :data:copyRoomSchemas NO-SOURCE
+
+> Task :data:compileAndroidMain
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/androidMain/kotlin/com/maxrave/data/mediaservice/MediaServiceHandlerImpl.kt:391:17 Unnecessary safe call on a non-null receiver of type 'List<Track>'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/androidMain/kotlin/com/maxrave/data/mediaservice/MediaServiceHandlerImpl.kt:1023:47 Redundant call of conversion method.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/commonMain/kotlin/com/maxrave/data/parser/HomeParser.kt:213:53 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/commonMain/kotlin/com/maxrave/data/parser/HomeParser.kt:269:53 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/commonMain/kotlin/com/maxrave/data/parser/HomeParser.kt:297:53 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/commonMain/kotlin/com/maxrave/data/parser/HomeParser.kt:315:95 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/commonMain/kotlin/com/maxrave/data/parser/HomeParser.kt:323:94 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/commonMain/kotlin/com/maxrave/data/parser/HomeParser.kt:326:49 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/commonMain/kotlin/com/maxrave/data/parser/HomeParser.kt:333:49 Unnecessary safe call on a non-null receiver of type 'Runs'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/commonMain/kotlin/com/maxrave/data/parser/HomeParser.kt:351:79 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/commonMain/kotlin/com/maxrave/data/parser/HomeParser.kt:360:99 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/commonMain/kotlin/com/maxrave/data/parser/HomeParser.kt:368:98 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/commonMain/kotlin/com/maxrave/data/parser/HomeParser.kt:371:53 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/commonMain/kotlin/com/maxrave/data/parser/HomeParser.kt:378:53 Unnecessary safe call on a non-null receiver of type 'Runs'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/commonMain/kotlin/com/maxrave/data/parser/HomeParser.kt:408:57 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/commonMain/kotlin/com/maxrave/data/parser/HomeParser.kt:643:13 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/commonMain/kotlin/com/maxrave/data/parser/HomeParser.kt:679:17 Unnecessary safe call on a non-null receiver of type 'Runs'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/commonMain/kotlin/com/maxrave/data/parser/HomeParser.kt:688:17 Unnecessary safe call on a non-null receiver of type 'Runs'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/commonMain/kotlin/com/maxrave/data/parser/LibraryPlaylistParser.kt:12:42 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/commonMain/kotlin/com/maxrave/data/parser/LibraryPlaylistParser.kt:20:61 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/commonMain/kotlin/com/maxrave/data/parser/LibraryPlaylistParser.kt:26:37 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/commonMain/kotlin/com/maxrave/data/parser/LibraryPlaylistParser.kt:32:37 Unnecessary safe call on a non-null receiver of type 'Runs'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/commonMain/kotlin/com/maxrave/data/parser/LibraryPlaylistParser.kt:52:45 Unnecessary safe call on a non-null receiver of type 'NavigationEndpoint'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/commonMain/kotlin/com/maxrave/data/parser/LibraryPlaylistParser.kt:58:21 Unnecessary safe call on a non-null receiver of type 'ThumbnailRenderer'.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/core/data/src/commonMain/kotlin/com/maxrave/data/parser/LibraryPlaylistParser.kt:64:21 Unnecessary safe call on a non-null receiver of type 'Runs'.
+
+> Task :data:processAndroidMainJavaRes
+> Task :data:bundleAndroidMainClassesToCompileJar
+> Task :data:bundleAndroidMainClassesToRuntimeJar
+> Task :data:bundleLibRuntimeToDirAndroidMain
+
+> Task :composeApp:compileAndroidMain
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/composeApp/src/androidMain/kotlin/com/maxrave/simpmusic/expect/ui/Cookies.android.kt:74:1 Annotation `@ParameterName(name = "token")` is missing on actual declaration.
+All annotations from expect `com.maxrave.simpmusic.expect.ui.DiscordWebView` must be present with the same arguments on actual `com.maxrave.simpmusic.expect.ui.DiscordWebView`, otherwise they might behave incorrectly.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/composeApp/src/commonMain/kotlin/com/maxrave/simpmusic/App.kt:390:90 Experimental Haze Materials API
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/composeApp/src/commonMain/kotlin/com/maxrave/simpmusic/ui/component/LibraryItem.kt:102:13 'when' is exhaustive so 'else' is redundant here.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/composeApp/src/commonMain/kotlin/com/maxrave/simpmusic/ui/screen/MiniPlayer.kt:448:78 Redundant call of conversion method.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/composeApp/src/commonMain/kotlin/com/maxrave/simpmusic/ui/screen/MiniPlayer.kt:605:66 Redundant call of conversion method.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/composeApp/src/commonMain/kotlin/com/maxrave/simpmusic/ui/screen/MiniPlayer.kt:818:66 'val Icons.Outlined.OpenInNew: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.OpenInNew.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/composeApp/src/commonMain/kotlin/com/maxrave/simpmusic/ui/screen/MiniPlayer.kt:833:54 'val Icons.Filled.VolumeUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.VolumeUp.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/composeApp/src/commonMain/kotlin/com/maxrave/simpmusic/ui/screen/MiniPlayer.kt:835:54 'val Icons.Filled.VolumeOff: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.VolumeOff.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/composeApp/src/commonMain/kotlin/com/maxrave/simpmusic/ui/screen/player/NowPlayingScreen.kt:787:66 'val Icons.Outlined.OpenInNew: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.OpenInNew.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/composeApp/src/commonMain/kotlin/com/maxrave/simpmusic/ui/screen/player/NowPlayingScreen.kt:1428:37 There is more than one label with such a name in this scope.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/composeApp/src/commonMain/kotlin/com/maxrave/simpmusic/ui/screen/player/NowPlayingScreen.kt:1493:29 There is more than one label with such a name in this scope.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/composeApp/src/commonMain/kotlin/com/maxrave/simpmusic/viewModel/SharedViewModel.kt:1177:36 Redundant call of conversion method.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/composeApp/src/commonMain/kotlin/com/maxrave/simpmusic/viewModel/SharedViewModel.kt:1186:44 Redundant call of conversion method.
+w: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/composeApp/src/commonMain/kotlin/com/maxrave/simpmusic/viewModel/SharedViewModel.kt:1194:44 Redundant call of conversion method.
+
+> Task :composeApp:compileAndroidMainJavaWithJavac NO-SOURCE
+> Task :composeApp:processAndroidMainJavaRes
+> Task :composeApp:bundleAndroidMainClassesToCompileJar
+> Task :composeApp:bundleAndroidMainClassesToRuntimeJar
+> Task :androidApp:compileDebugKotlin
+> Task :androidApp:processDebugJavaRes
+> Task :composeApp:bundleLibRuntimeToDirAndroidMain
+> Task :androidApp:compileDebugJavaWithJavac
+> Task :androidApp:dexBuilderDebug
+> Task :androidApp:mergeLibDexDebug
+> Task :androidApp:mergeProjectDexDebug
+> Task :androidApp:mergeDebugGlobalSynthetics
+> Task :androidApp:mergeDebugJavaResource
+> Task :androidApp:packageDebug
+> Task :androidApp:createDebugApkListingFileRedirect
+
+[Incubating] Problems report is available at: file:///C:/Users/larso/AndroidStudioProjects/SimpMusic/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 2m 27s
+335 actionable tasks: 335 executed
+Configuration cache entry stored.
